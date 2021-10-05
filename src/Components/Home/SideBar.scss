@@ -1,0 +1,99 @@
+@import "../../color.scss";
+* {
+    margin: 0%;
+    padding: 0rem;
+}
+
+body{
+    background-color: #605e5e;
+}
+
+.Side-bar {
+    @include sideBar(#605e5e, 1rem,10%);
+    width:11%;
+    height:100vh;
+    border-radius: 1%;
+    filter: drop-shadow(5px 5px 5px #E6f86d);
+    position: fixed;
+}
+  
+  .SideBar-content-main{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 8rem 0rem 0rem 0rem;
+  }
+  
+  .Side-Bar-content1{
+      padding: 0rem 0rem 2rem 0rem;
+  }
+  .Side-Bar-content1 button{
+          background-color: #E6f86d;
+          border-radius: 20%;
+          border: none;
+          padding:0.3rem;
+  }
+  
+  .Side-Bar-content1 button i {
+      font-size: 200%;
+      color: #000;
+  }
+  
+  .Side-Bar-content1 p{
+       @include paraText(1rem, #fff);
+       line-height: 3rem;
+  }
+  
+  
+  .Side-Bar-content2{
+      padding: 1rem 0rem 2rem 0rem;
+  }
+  
+  .Side-Bar-content2 button{
+      background-color: #E6f86d;
+      border: none;
+      border-radius: 25%;
+      padding: 0.8rem;
+  }
+  
+  .Side-Bar-content2 p {
+      font-size: 1rem;
+      color:#bfbfbf;
+      font-family: 'Poppins';
+      line-height: 2.0;
+      padding-bottom: 3rem;
+  }
+  .Side-Bar-cont3{
+      padding: 5rem 0rem 0rem 0rem;
+  }
+  
+  .Side-Bar-cont3 p{
+      font-size: 0.8rem;
+      color: #fff;
+      font-family: 'Poppins';
+      font-weight: 300;
+      line-height: 2.0;
+  }
+  
+  .Side-Bar-cont4 {
+      padding: 2rem 0rem 0rem 0rem;
+  }
+  
+  .Side-Bar-cont4 i {
+      font-size: 70%;
+      color: #fff;
+      padding: 0rem 0.5rem 0rem 0rem;
+  }
+  
+  .Side-Bar-cont4 span {
+      font-size: 0.8rem;
+      font-family: 'Poppins';
+      color: #fff;
+      opacity: 0.7;
+  }
+  
+  
+  
+  
+  
+  

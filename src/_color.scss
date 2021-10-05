@@ -1,0 +1,19 @@
+@mixin paraText($font-size,$color){
+    font-size: $font-size;
+    color: $color;
+    font-weight:500;
+    line-height: 2rem;
+    font-family: 'Poppins';
+}
+
+@mixin sideBar ($background-color,$border-radius,$width){
+    background-color: $background-color;
+    width:$width;
+}
+
+
+
+
+
+
+

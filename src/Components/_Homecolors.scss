@@ -1,0 +1,8 @@
+@mixin mybutton($font-size,$background-color,$border-radius,$border) 
+{
+    font-size: $font-size;
+    background-color: $background-color;
+    border-radius: $border-radius;
+    border:$border
+}
+
