@@ -6,3 +6,7 @@
     border:$border
 }
 
+@mixin spanContent ($padding){
+    padding-bottom: $padding;
+}
+

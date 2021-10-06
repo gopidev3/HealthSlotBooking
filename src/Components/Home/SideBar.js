@@ -7,7 +7,24 @@ import { FaSignal } from 'react-icons/fa';
 import { BsWifi } from "react-icons/bs";
 import { BsBatteryFull } from "react-icons/bs";
 import micheal_img from '../../Assets/imgs/micheal_img.png';
+// import { withRouter } from 'react-router';
+    
+// const SideBar extends Component {
+//     constructor(props) {
+//        super(props)
+//        this.state = {
+//            page: 'SideBar'
+//        }
+//    }
 
+
+// changePage = (e2) => {
+//     this.props.history.push('/Home')
+// }
+
+
+// render() {const { page } = this.state;
+//   console.log('home', page)
 const SideBar = () => {
     return (
         <div className = "Side-bar">
@@ -30,7 +47,6 @@ const SideBar = () => {
               </div>   
            </div>    
         </div>
-
        
     )
 }

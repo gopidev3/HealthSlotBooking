@@ -1,0 +1,42 @@
+@import '../../Homecolors';
+ .OnGoing-root-div {
+    position: absolute;
+    top:3rem;
+    left:15rem;
+ }
+
+ .Ongoing-cont1 span{
+    font-family: 'Poppins';
+    color: #E6F86D;
+    font-size: 1rem;
+ }
+
+ .Third-Card-main-div {
+     width:200%;
+     height: auto;
+     background-color: #fff;
+     border-radius: 1rem;
+     margin-top: 5%;
+ }
+
+
+.myt {
+    width:100%;
+    border-collapse:collapse;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+th {
+    font-family: 'Poppins';
+    font-size: 0.8rem;
+    background-color:#E6F86D;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.myt td {
+    font-family: 'Poppins';
+    padding: 1.5rem 0rem 0rem 0rem;
+    font-size: 0.8rem;
+}
