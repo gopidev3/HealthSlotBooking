@@ -5,11 +5,23 @@
     left:15rem;
  }
 
- .Ongoing-cont1 span{
+.Ongoing-cont1 {
+    display: flex;
+    column-gap: 5rem;
+}
+
+.Ongoing-cont1 span,.mysp {
     font-family: 'Poppins';
     color: #E6F86D;
     font-size: 1rem;
- }
+    padding-bottom: 0.5rem;
+}
+
+.Ongoing-cont1 span,.mysp:active{
+    cursor: pointer;
+    border-bottom: 1px solid #E6F86D;
+}
+
 
  .Third-Card-main-div {
      width:200%;

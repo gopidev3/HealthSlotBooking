@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import "./SideBar.scss";
 import { AiFillFileText } from "react-icons/ai";
 import { AiFillHome } from "react-icons/ai";
@@ -7,34 +7,19 @@ import { FaSignal } from 'react-icons/fa';
 import { BsWifi } from "react-icons/bs";
 import { BsBatteryFull } from "react-icons/bs";
 import micheal_img from '../../Assets/imgs/micheal_img.png';
-// import { withRouter } from 'react-router';
-    
-// const SideBar extends Component {
-//     constructor(props) {
-//        super(props)
-//        this.state = {
-//            page: 'SideBar'
-//        }
-//    }
+import { Link } from "react-router-dom";
 
 
-// changePage = (e2) => {
-//     this.props.history.push('/Home')
-// }
-
-
-// render() {const { page } = this.state;
-//   console.log('home', page)
-const SideBar = () => {
+ const SideBar = () => {
     return (
         <div className = "Side-bar">
             <div className = "SideBar-content-main">
                 <div className = "Side-Bar-content1">
-                   <button><i><AiFillHome/></i></button>
+                 <Link to = "/HomePage"> <button><i><AiFillHome/></i></button></Link>
                     <p>Home</p>
                 </div>
                 <div className = "Side-Bar-content2">
-                 <button><i><AiFillFileText/></i></button>
+                <Link to = "/AbouPage"><button><i><AiFillFileText/></i></button></Link>
                  <p>Reports</p>
                 </div>
                 <div className = "Side-Bar-cont3">
@@ -47,8 +32,9 @@ const SideBar = () => {
               </div>   
            </div>    
         </div>
-       
     )
-}
+ }
+    
+       
 
-export default SideBar
+export default SideBar;

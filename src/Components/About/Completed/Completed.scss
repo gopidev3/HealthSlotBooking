@@ -1,21 +1,15 @@
 .Completed-root-div {
     position: absolute;
-    top:3rem;
-    left:22rem;
+    top:4rem;
+    left:10rem;
 }
 
 .Completed-Card {
     background-color: #fff;
-    border-radius: 1rem;
     width:150%;
     padding: 0rem 5rem 0rem 0rem;
 }
 
-.completed-cont1 span{
-    font-size: 1rem;
-    color:#E6F86D;
-    font-family: 'Poppins';
-}
 
 .Completed-Card h3 {
     font-family: 'Poppins';
@@ -25,15 +19,16 @@
 
 
 .Completed-Card .myt2 {
-    width:109%;
+    width:110%;
+    padding: 0rem 0rem 0rem 0.2rem;
     text-align: center;
-    border-collapse: collapse;
+    border-collapse:collapse;
     line-height: 2.0;
 }
 
 .myt2 th {
     background-color: #E6F86D;
-    padding: 0rem 0.2rem 0rem 0.8rem;
+    padding: 0rem 1rem 0rem 0.8rem;
     font-family: 'Poppins';
 }
 

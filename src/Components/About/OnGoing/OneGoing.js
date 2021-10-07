@@ -1,12 +1,21 @@
-import React from 'react';
-import './OnGoing.scss'
+import React, { useState} from "react";
+import './OnGoing.scss';
+import { Link } from "react-router-dom";
+import Completed from "../Completed/Completed";
+
 
 const OnGoing = () => {
+    const [state, setstate] = useState("OnGoing")
+    const handleClick=(item)=>{
+            setstate(item)
+    }
     return (
         <div className="OnGoing-root-div">
             <div className="Ongoing-cont1">
-                <span>On Going</span>
+               <span onClick={()=>handleClick("OnGoing")}> On-Going </span>
+               <span className = "mysp" onClick={()=>handleClick("Completed")}>Completed</span>
             </div>
+            {state==="OnGoing"&&
             <div className="Third-Card-main-div">
                 <table className="myt">
                     <tr>
@@ -35,10 +44,11 @@ const OnGoing = () => {
                         <td>NA</td>
                     </tr>
                 </table>
-            </div>
-        </div>
+                
+            </div>}
+            {state ==="Completed"&&<Completed/>}
 
-
+         </div>
 
 
     )

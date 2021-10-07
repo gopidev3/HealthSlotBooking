@@ -1,14 +1,13 @@
 import React from 'react';
 import './Completed.scss';
+import eye1_img from '../../../Assets/imgs/eye1_img.png';
+import eye2_img from '../../../Assets/imgs/eye2_img.png';
+
 
 const Completed = () => {
     return (
         <div className="Completed-root-div">
-          <div className = "completed-cont1">
-              <span>Completed</span>
-          </div>
           <div className = "Completed-Card">
-             <h3>Your Recent Tests</h3>
              <table className = "myt2">
                 <tr>
                   <th>TestName</th>
@@ -16,7 +15,7 @@ const Completed = () => {
                   <th>Location</th>
                   <th>Slot Timings</th>
                   <th>X-Ray Details</th>
-                  {/* <th>Details</th> */}
+                   <th>Details</th>
                 </tr>
                     <tr>
                       <td>Mark</td>
@@ -24,6 +23,7 @@ const Completed = () => {
                       <td>Hyderabad</td>
                       <td>Tue, 17 Nov 2020 / 04:17:18 GMT</td>
                       <td>Sat, 21 Aug 2020</td>
+                      <td><img src = {eye1_img} alt = ""/></td>
                     </tr>
                     <tr>
                       <td>William</td>
@@ -31,6 +31,7 @@ const Completed = () => {
                       <td>Hyderabad</td>
                       <td>Tue, 17 Nov 2020 / 04:17:18 GMT</td>
                       <td>Sat, 21 Aug 2020</td>
+                      <td><img src = {eye2_img} alt = ""/></td>
                     </tr>
                     <tr>
                       <td>Joseph</td>
@@ -38,6 +39,7 @@ const Completed = () => {
                       <td>Hyderabad</td>
                       <td>Tue, 17 Nov 2020 / 04:17:18 GMT</td>
                       <td>Sat, 21 Aug 2020</td>
+                      <td><img src = {eye2_img} alt = ""/></td>
                     </tr>
                     <tr>
                       <td>Micheal</td>
@@ -45,6 +47,7 @@ const Completed = () => {
                       <td>Hyderabad</td>
                       <td>Tue, 17 Nov 2020 / 04:17:18 GMT</td>
                       <td>Sat, 21 Aug 2020</td>
+                      <td><img src = {eye1_img} alt = ""/></td>
                     </tr>
                     <tr>
                       <td>Tony</td>
@@ -52,6 +55,7 @@ const Completed = () => {
                       <td>Hyderabad</td>
                       <td>Tue, 17 Nov 2020 / 04:17:18 GMT</td>
                       <td>Sat, 21 Aug 2020</td>
+                      <td><img src = {eye1_img} alt = ""/></td>
                     </tr>
                     <tr>
                       <td>Mark</td>
@@ -59,6 +63,7 @@ const Completed = () => {
                       <td>Hyderabad</td>
                       <td>Tue, 17 Nov 2020 / 04:17:18 GMT</td>
                       <td>Sat, 21 Aug 2020</td>
+                      <td><img src = {eye1_img} alt = ""/></td>
                     </tr>
                </table>
             </div> 

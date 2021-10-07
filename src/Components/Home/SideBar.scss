@@ -40,7 +40,8 @@ body{
   }
   
   .Side-Bar-content1 p{
-       @include paraText(1rem, #fff);
+       @include paraText(1rem, #E6f86d);
+       font-weight: 300;
        line-height: 3rem;
   }
   
@@ -58,9 +59,10 @@ body{
   
   .Side-Bar-content2 p {
       font-size: 1rem;
-      color:#bfbfbf;
+      color:#E6f86d;
       font-family: 'Poppins';
       line-height: 2.0;
+      font-weight: 300;
       padding-bottom: 3rem;
   }
   .Side-Bar-cont3{
