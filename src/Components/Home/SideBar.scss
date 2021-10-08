@@ -56,6 +56,10 @@ body{
       border-radius: 25%;
       padding: 0.8rem;
   }
+
+  .Side-Bar-content2 i {
+      font-size: 120%;
+  }
   
   .Side-Bar-content2 p {
       font-size: 1rem;
@@ -92,6 +96,13 @@ body{
       font-family: 'Poppins';
       color: #fff;
       opacity: 0.7;
+  }
+
+
+  @media screen and (max-width:500px) {
+        .Side-bar {
+            display: none;
+        }
   }
   
   

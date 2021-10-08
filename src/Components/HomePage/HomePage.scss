@@ -50,7 +50,7 @@
     left:13.5rem;
     top:13rem;
     height:auto;
-    border-radius: 3%;
+    border-radius: 1rem;
     background-color: #fff;
     width:50%;
     padding: 0rem 0rem 1.5rem 0rem;
@@ -145,6 +145,50 @@
      font-family: 'Poppins';
      border-radius: 25%;
      padding: 0.5rem 0.5rem 0.5rem 1rem;
+ }
+
+ @media screen and (max-width:500px){
+     .Second-health-card-maindiv {
+         display: none;
+     }
+
+     .third-health-Card {
+         display: none;
+     }
+     
+
+     .HomePage-Card1-main {
+        position: absolute;
+         top:50%;
+         left:0;
+         right:0;
+         margin: auto;
+         width:75%;
+         padding: 0rem 0.5rem 0.9rem 0rem;
+     }
+
+     .HomePage-Contentimg img {
+         position: relative;
+         width:50%;
+         top:1rem;
+         left:3rem;
+     }
+
+     .HomePage-content1 p {
+         width:100%;
+         font-size: 0.7rem;
+         padding: 0rem 0.5rem 0rem 0rem;
+     }
+
+     .HomePage-button {
+         padding-left: 0rem;
+     }
+
+     .HomePage-button button {
+        padding: 0.5rem 4.8rem 0.5rem 5rem;
+        border-radius: 0.5rem;
+        font-size: 0.8rem;
+     }
  }
 
 

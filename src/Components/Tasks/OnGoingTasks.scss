@@ -1,0 +1,70 @@
+@media screen and (max-width:500px) {
+    .OnGoingTasks-mainroot {
+        position: absolute;
+        top:20%;
+        left:3%;
+    }
+
+    .OnGoing-Card-container {
+        padding: 1rem 0rem 0rem 0.7rem;
+    }
+
+    .On-Going-main .OnGoingTasks-cont1{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 8rem;
+        padding-left: 0.8rem;
+    }
+
+    .OnGoingTasks-cont1 span{
+        font-family: 'Poppins';
+        color: #e6f86d;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #e6f86d;
+    }   
+
+    .Ongoing-health-card{
+        width:90%;
+        background-color: #fff;
+        padding: 0.5rem 1rem 0rem 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .Ongoing-health-card span {
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .Ongoing-health-card img {
+        float: right;
+        width: 9%;
+    }
+
+    .Ongoing-health-card i{
+        color:#008683;
+        float: right;
+    }
+
+    .Ongoing-health-card p{
+        font-size: 0.9rem;
+        font-family: 'Poppins';
+        color: #008683;
+        padding: 0.3rem 0rem 0.5rem 0rem;
+    }
+
+    .Ongoing-health-card .cl-span {
+        font-family: 'Poppins';
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #A6AFB3;
+    }
+
+    .Ongoing-health-card .I-T {
+        color: #A6AFB3;
+    }
+
+
+    
+}
