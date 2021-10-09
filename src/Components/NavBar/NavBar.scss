@@ -3,14 +3,13 @@
     position:absolute;
     top:2rem;
     left:1rem;
-    width:80%;
+    width:90%;
 }
 
  .NavBar-content-main {
     display: flex;
     justify-content: space-between; 
-    
-}
+ }
 
 .NavBar-health-cont1 p {
     font-size: 1rem;
@@ -36,13 +35,12 @@
    }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:360px){
     .NavBar-main {
-        background-color:none;
         position:absolute;
         top:0rem;
         left:1rem;
-        width:90%;
+        width:95%;
         padding: 0rem 0rem 0rem 0rem;
     }
 
@@ -57,7 +55,22 @@
         padding: 0REM 0.5REM 0REM 0REM;
     }
     
-    
+}
+
+@media screen and (max-width:414px) and (min-width:361px){
+    .NavBar-main {
+        top:0rem;
+        left:1rem;
+        width:94%;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .NavBar-health-cont2 i {
+        color: #fff;
+        font-size: 100%;
+        padding: 0rem 0.5rem 0rem 0rem;
+    }
+
 }
 
 

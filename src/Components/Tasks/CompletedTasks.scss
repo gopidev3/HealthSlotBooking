@@ -1,0 +1,133 @@
+@media screen and (max-width:1366px) and (min-width:501px){
+    .Seventh-amain-root {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:360px){
+    .Seventh-amain-root {
+        border-radius: 1rem;
+        position: absolute;
+        top:20rem;
+        left:2rem;
+        width:80%;
+    }
+
+    .prt {
+        font-family: 'Poppins';
+        font-size: 1rem;
+        color: #fff;
+        padding: 0rem 0rem 0.5rem 0rem;
+    }
+
+    .Seventh-health-cards-conatainer {
+        margin-bottom: 5rem;
+    }
+
+    .Seventh-heallth-Card{
+        margin-bottom: 0.5rem;
+        background-color: #fff;
+        padding: 0.5rem 0rem 0rem 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .Seventh-heallth-Card span {
+        font-family: 'Poppins';
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .Seventh-heallth-Card img {
+        float: right;
+        width: 9%;
+    }
+
+    .Seventh-heallth-Card i {
+        color:#008683;
+        float: right;
+    }
+
+    .Seventh-heallth-Card p {
+        font-size: 0.9rem;
+        font-family: 'Poppins';
+        color: #008683;
+        padding: 0.3rem 0rem 0.5rem 0rem;
+    }
+
+    .Seventh-heallth-Card .cl-span {
+        font-family: 'Poppins';
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #A6AFB3;
+    }
+
+    .Seventh-heallth-Card .I-T {
+        color: #A6AFB3;
+    }
+}
+
+@media screen and (max-width:414px) and (min-width:361px){
+    .Seventh-amain-root {
+        border-radius: 1rem;
+        position: absolute;
+        top:20rem;
+        left:2.6rem;
+        width:80%;
+    }
+
+    .prt {
+        font-family: 'Poppins';
+        font-size: 1rem;
+        color: #fff;
+        padding: 0rem 0rem 0.5rem 0rem;
+    }
+
+    .Seventh-health-cards-conatainer {
+        margin-bottom: 5rem;
+    }
+
+    .Seventh-heallth-Card{
+        margin-bottom: 0.5rem;
+        background-color: #fff;
+        padding: 0.5rem 0rem 0rem 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .Seventh-heallth-Card span {
+        font-family: 'Poppins';
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .Seventh-heallth-Card img {
+        float: right;
+        width: 9%;
+    }
+
+    .Seventh-heallth-Card i {
+        color:#008683;
+        float: right;
+    }
+
+    .Seventh-heallth-Card p {
+        font-size: 0.9rem;
+        font-family: 'Poppins';
+        color: #008683;
+        padding: 0.3rem 0rem 0.5rem 0rem;
+    }
+
+    .Seventh-heallth-Card .cl-span {
+        font-family: 'Poppins';
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #A6AFB3;
+    }
+
+    .Seventh-heallth-Card .I-T {
+        color: #A6AFB3;
+    }
+    
+}

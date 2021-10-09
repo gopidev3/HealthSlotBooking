@@ -1,0 +1,50 @@
+@media screen and (max-width:1366px) and (min-width:501px){
+    .sticky-health-fter {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .sticky-health-fter{
+        background-color:#606e5e;
+        width:100%;
+        position: fixed;
+        bottom: -0rem;
+        filter: drop-shadow(5px 5px 5px #E6f86d);
+        padding: 0.5rem 0rem 0rem 0rem;
+    }
+
+    .sticky-health-fter-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sticky-healthslot-cont1 i {
+        color: #E6f86d;
+        font-size: 160%;
+        padding: 0rem 0rem 0rem 0.5rem;
+    }
+
+    
+    .sticky-healthslot-cont1 p {
+        font-size: 0.8rem;
+        color: #fff;
+        font-family: 'Poppins';
+        padding: 0rem 0rem 0rem 0.2rem;
+    }
+
+    .sticky-healthslot-cont2 i{
+        color: #E6f86d;
+        font-size: 160%;
+        padding: 0rem 0rem 0rem 0.5rem;
+    }
+
+    .sticky-healthslot-cont2 p{
+         text-align: center;
+         color: #fff;
+         font-size: 0.8rem;
+         font-family: 'Poppins';
+    }
+
+}

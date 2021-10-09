@@ -4,7 +4,7 @@ import HomePage from "./Components/HomePage/HomePage";
 import OnGoing from './About/OnGoing/OneGoing';
 import Completed from './About/Completed/Completed';
 import NavBar from './NavBar/NavBar';
-import Reports from './Reports/Reports';
+
 
 const Home = () => {
     return (
@@ -12,9 +12,8 @@ const Home = () => {
             <Sidebar/> 
             <HomePage/>
             <OnGoing/> 
-            <Completed/>
+            <Completed/> 
             <NavBar/>
-            <Reports/>
         </div>
        
     )

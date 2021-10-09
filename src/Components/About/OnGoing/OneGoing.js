@@ -3,7 +3,6 @@ import './OnGoing.scss';
 import { Link } from "react-router-dom";
 import Completed from "../Completed/Completed";
 
-
 const OnGoing = () => {
     const [state, setstate] = useState("OnGoing")
     const handleClick=(item)=>{
@@ -43,11 +42,9 @@ const OnGoing = () => {
                         <td>Wed,22 Sep 2020</td>
                         <td>NA</td>
                     </tr>
-                </table>
-                
+                </table>   
             </div>}
             {state ==="Completed"&&<Completed/>}
-
          </div>
 
 

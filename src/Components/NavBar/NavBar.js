@@ -5,7 +5,6 @@ import { FaSignal } from 'react-icons/fa';
 import { BsWifi } from "react-icons/bs";
 import { BsBatteryFull } from "react-icons/bs";
 
-
  const NavBar = () => {
     return (
         <div className = "NavBar-main">
