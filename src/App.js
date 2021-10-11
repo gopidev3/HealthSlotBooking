@@ -28,9 +28,9 @@ function App() {
           <Route exact path = "/AbouPage" component = {OnGoing}/>
           <NavBar/>
           <Reports/>
-          <OnGoingTasks/>
-          <CompletedTasks/>
-          <Footer/>
+           <OnGoingTasks/> 
+           <CompletedTasks/>  
+           {/* <Footer/>  */}
       </div>
    </Router>
   

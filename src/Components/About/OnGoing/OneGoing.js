@@ -7,7 +7,7 @@ const OnGoing = () => {
     const [state, setstate] = useState("OnGoing")
     const handleClick=(item)=>{
             setstate(item)
-    }
+}
     return (
         <div className="OnGoing-root-div">
             <div className="Ongoing-cont1">

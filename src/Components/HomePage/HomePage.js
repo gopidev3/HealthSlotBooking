@@ -9,22 +9,23 @@ import {HiOutlineClock } from "react-icons/hi";
 const HomePage = () => {
     return (
       <div className = "main-root">
-        <div className = "HomePage-Card1-main">
-          <div className = "Home-content-main">
-            <div className  = "HomePage-content1">
-             <h3>Hello,Micheal!</h3>
-             <p>Enpowering healthCare diagnosis with artificial
-                 intelligence,test your results below!!
-             </p>
-             <div className = "HomePage-Contentimg">
-               <img src = {Robo_img} alt = ""/>
-             </div>
-             <div className = "HomePage-button">
-                <button>Examine Test</button>
-             </div>
-          </div>
-        </div>
-       </div>
+         <div className = "Second-Health-slot-maindiv">
+            <div className = "Subont-main-content">
+              <div className  = "subont1">
+                <h3>Hello,Micheal!</h3>
+                 <p>Enpowering healthCare diagnosis with artificial
+                    intelligence,test your results below
+                </p> 
+              </div>
+                <div className = "subont-img">
+                   <img src = {Robo_img} alt = ""/> 
+                </div>
+                <div className = "yt-button">
+                   <button>ExamineTest</button> 
+                </div>
+              
+            </div>
+         </div>
 
        <div className = "Second-health-card-maindiv">
              <h3>Your Recent Tests</h3>
@@ -33,7 +34,7 @@ const HomePage = () => {
                   <th>TestName</th>
                   <th>Age</th>
                   <th>Location</th>
-                  <th>Slot Timings</th>
+                  <th className = "thm">Slot Timings</th>
                   <th>X-Ray Details</th>
                   <th> </th>
                 </tr>

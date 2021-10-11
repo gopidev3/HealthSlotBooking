@@ -1,54 +1,68 @@
 @import '../Homecolors.scss';
 
-.HomePage-Card1-main {
-    background-color: #fff;
-    width:50%;
+.main-root{
+    position: relative;
+    left:11rem;
+    top:1rem;
+}
+
+.Second-Health-slot-maindiv{
     position: absolute;
+    top:0rem;
+    left:1rem;
+    background-color:#fff;
+    width:50%;
     border-radius: 1rem;
-    padding: 0rem 0rem 1.5rem 0rem;
-    top:1REM;
-    left:13REM;
 }
 
-.Home-content-main {
-    padding: 0.8rem 0rem 0rem 1.5rem;
+.Subont-main-content{
+    text-align: left;
+    padding: 0rem 0rem 0rem 1.5rem;
 }
 
-.HomePage-content1 h3{
+.subont1 h3{
     font-family: 'Poppins';
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 1rem;
     color: #605e5e;
+    padding: 0.5rem 0rem 0rem 0rem;
 }
 
-.HomePage-content1 p {
+.subont1 p{
     font-family: 'Poppins';
     font-size: 0.8rem;
     color: #605e5e;
-    width:50%;
-    padding: 0.5rem 0rem 0rem 0rem;
-}
-.HomePage-Contentimg img {
-    position: absolute;
-     top:0.8rem;
-     right:2rem;
-     width:20%;
-     padding: 0rem 0rem 0rem 0rem;
+    width:60%;
+    padding: 0.3rem 0rem 0.8rem 0rem;
 }
 
-.HomePage-button{
-    padding: 1rem 0rem 0rem 0rem;
+.subont-img{
+   position: absolute;
+   top:1rem;
+   right:0rem;
 }
-.HomePage-button button{
-    @include mybutton(0.9rem,#e6f86d,0.7rem,none);
+
+.subont-img img {
+    width:70%;
+}
+
+.yt-button {
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.yt-button button {
+    border: none;
+    background-color: #E6F86D;
+    border-radius: 5%;
+    font-size: 0.9rem;
+    padding: 0.5rem 3rem 0.5rem 2.5rem;
     font-family: 'Poppins';
     font-weight: 600;
-    padding: 0.7rem 2.5rem 0.7rem 2rem;
 }
-
 .Second-health-card-maindiv{
     position:absolute ;
-    left:13.5rem;
-    top:13rem;
+    left:1rem;
+    top:10rem;
     height:auto;
     border-radius: 1rem;
     background-color: #fff;
@@ -90,8 +104,7 @@
     position: absolute;
     height:auto;
     border-radius: 1rem;
-    right: 1rem;
-    top:1rem;
+    right: 13rem;
     box-sizing: border-box;
 }
 
@@ -147,34 +160,35 @@
      padding: 0.5rem 0.5rem 0.5rem 1rem;
  }
 
- @media screen and (max-width:360px){
-     .HomePage-Card1-main {
-         display: none;
-     }
-
-     .Second-health-card-maindiv {
-         display: none;
-     }
-
-     .third-health-Card {
-         display: none;
-     }
-     
+@media screen and (max-width:360px){
+    .Second-Health-slot-maindiv {
+        display: none;
     }
 
-    @media screen and (max-width:414px) and (min-width:361px){
-        .HomePage-Card1-main {
-            display: none;
-        }
-
-        .Second-health-card-maindiv {
-            display: none;
-        }
-
-        .third-health-Card {
-            display: none;
-        }
+    .Second-health-card-maindiv {
+        display: none;
     }
+
+    .third-health-Card {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:414px)and(min-width:361px){
+    .Second-Health-slot-maindiv {
+        display: none;
+    }
+
+    .Second-health-card-maindiv {
+        display: none;
+    }
+
+    .third-health-Card {
+        display: none;
+    }
+    
+}
 
 
 

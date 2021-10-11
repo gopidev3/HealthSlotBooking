@@ -2,9 +2,8 @@ import React from 'react';
 import "./Footer.scss";
 import { IoMdHome } from "react-icons/io";
 import { AiFillFileText } from "react-icons/ai";
-import CompletedTasks from "../Tasks/CompletedTasks";
-
-// const OnGoing = () => {
+import { Link } from "react-router-dom";
+// const OnGoingTasks = () => {
 //     const [state, setstate] = useState("OnGoingTasks")
 //     const handleClick=(item)=>{
 //             setstate(item)
@@ -15,11 +14,11 @@ const Footer = () => {
         <div className = "sticky-health-fter-content">
             <div className = "sticky-healthslot-cont1">
                 <i><IoMdHome/></i>
-                <p>Home</p>
+               <Link to = "/OnGoingTasks"><p>Home</p></Link>
             </div>
             <div className = "sticky-healthslot-cont2">
                 <i><AiFillFileText/></i>
-                <p>Reports</p>
+              <Link to = "/CompletedTasks" ><p>Reports</p></Link>
             </div>
         </div>
     </div>

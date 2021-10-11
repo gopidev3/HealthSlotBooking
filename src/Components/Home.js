@@ -5,7 +5,6 @@ import OnGoing from './About/OnGoing/OneGoing';
 import Completed from './About/Completed/Completed';
 import NavBar from './NavBar/NavBar';
 
-
 const Home = () => {
     return (
          <div>
@@ -15,7 +14,7 @@ const Home = () => {
             <Completed/> 
             <NavBar/>
         </div>
-       
+     
     )
 }
 
