@@ -28,9 +28,11 @@ function App() {
           <Route exact path = "/AbouPage" component = {OnGoing}/>
           <NavBar/>
           <Reports/>
-           <OnGoingTasks/> 
-           <CompletedTasks/>  
-           {/* <Footer/>  */}
+           {/* <OnGoingTasks/> */}
+           <Route exact path = "/OnGoingTaks" component = {OnGoingTasks}/>
+           {/* <CompletedTasks/>   */}
+           <Route exact path = "/CompletedTasks" component = {CompletedTasks}/>
+            <Footer/> 
       </div>
    </Router>
   

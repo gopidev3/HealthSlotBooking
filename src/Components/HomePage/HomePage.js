@@ -22,8 +22,7 @@ const HomePage = () => {
                 </div>
                 <div className = "yt-button">
                    <button>ExamineTest</button> 
-                </div>
-              
+                </div>             
             </div>
          </div>
 

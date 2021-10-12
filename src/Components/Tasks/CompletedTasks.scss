@@ -1,4 +1,4 @@
-@media screen and (max-width:1366px) and (min-width:501px){
+@media screen and (max-width:1366px) and (min-width:415px){
     .Seventh-amain-root {
         display: none;
     }
@@ -6,23 +6,68 @@
 }
 
 @media screen and (max-width:360px){
-    .Seventh-amain-root {
+     .Seventh-amain-root {
         border-radius: 1rem;
-        position: absolute;
-        top:20rem;
+        position: relative;
+        top:10rem;
         left:2rem;
         width:80%;
     }
+
+    .Seventh-card-container {
+        padding: 0.8rem 0rem 0rem 0rem;
+    }
+
+    .Sevent-content-main {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .Seventh-card {
+        background-color: #fff;
+        border-radius: 1rem;
+    }
+    .Seventh-card h3{
+        font-family: 'Poppins';
+        padding: 0.8rem 0rem 0rem 0.8rem;
+        color: #605e5e;
+    }
+    .Seventh-card p{
+        font-family: 'Poppins';
+        font-size: 0.7rem;
+        line-height: 2.0;
+        color: #605e5e;
+        padding: 0rem 0rem 0rem 0.7rem;
+    }
+
+    .Seventh-card-img img{
+        display: block;
+        width:50%;
+        margin: auto;
+        padding: 0rem 0rem 2rem 0rem;
+    }
+
+    .Seventh-card-button button{
+        width:100%;
+        padding: 1rem 0rem 1rem 0rem ;
+        border:none;
+        background-color: #E6f86d;
+        font-family: 'Poppins';
+        font-size: 0.9rem;
+        font-weight: bold;
+        border-radius: 1rem;
+    }
+    
 
     .prt {
         font-family: 'Poppins';
         font-size: 1rem;
         color: #fff;
-        padding: 0rem 0rem 0.5rem 0rem;
+        padding: 1rem 0rem 0rem 0rem;
     }
 
     .Seventh-health-cards-conatainer {
-        margin-bottom: 5rem;
+        padding: 1rem 0rem 0rem 0rem;
+        margin-bottom: 15rem;
     }
 
     .Seventh-heallth-Card{
@@ -66,22 +111,67 @@
     .Seventh-heallth-Card .I-T {
         color: #A6AFB3;
     }
+
 }
 
 @media screen and (max-width:414px) and (min-width:361px){
     .Seventh-amain-root {
         border-radius: 1rem;
         position: absolute;
-        top:20rem;
+        top:10rem;
         left:2.6rem;
         width:80%;
     }
+
+    .Seventh-card-container {
+        padding: 0.8rem 0rem 0rem 0rem;
+    }
+
+    .Sevent-content-main {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .Seventh-card {
+        background-color: #fff;
+        border-radius: 1rem;
+    }
+    .Seventh-card h3{
+        font-family: 'Poppins';
+        padding: 0.8rem 0rem 0rem 0.8rem;
+        color: #605e5e;
+    }
+    .Seventh-card p{
+        font-family: 'Poppins';
+        font-size: 0.7rem;
+        line-height: 2.0;
+        color: #605e5e;
+        padding: 1rem 0rem 0rem 0.7rem;
+    }
+
+    .Seventh-card-img img{
+        display: block;
+        width:50%;
+        margin: auto;
+        padding: 0rem 0rem 2rem 0rem;
+    }
+
+    .Seventh-card-button button{
+        width:100%;
+        padding: 1rem 0rem 1rem 0rem ;
+        border:none;
+        background-color: #E6f86d;
+        font-family: 'Poppins';
+        font-size: 0.9rem;
+        font-weight: bold;
+        border-radius: 1rem;
+    }
+    
 
     .prt {
         font-family: 'Poppins';
         font-size: 1rem;
         color: #fff;
-        padding: 0rem 0rem 0.5rem 0rem;
+        padding: 2rem 0rem 0.5rem 0rem;
     }
 
     .Seventh-health-cards-conatainer {

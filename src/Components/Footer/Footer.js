@@ -13,12 +13,12 @@ const Footer = () => {
         <div className = "sticky-health-fter">
         <div className = "sticky-health-fter-content">
             <div className = "sticky-healthslot-cont1">
-                <i><IoMdHome/></i>
-               <Link to = "/OnGoingTasks"><p>Home</p></Link>
+              <Link to = "/CompletedTasks"><i><IoMdHome/></i></Link>
+                <p>Home</p>
             </div>
             <div className = "sticky-healthslot-cont2">
-                <i><AiFillFileText/></i>
-              <Link to = "/CompletedTasks" ><p>Reports</p></Link>
+               <Link to = "/OnGoingTaks"><i><AiFillFileText/></i></Link>
+                <p>Reports</p>
             </div>
         </div>
     </div>

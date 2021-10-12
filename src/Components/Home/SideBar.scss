@@ -99,71 +99,10 @@ body{
   }
 
   @media screen and (max-width:500px){
-    .Side-Bar-cont3 {
-        display: none;
-    }
-
-    .Side-Bar-cont4 {
-        display: none;
-    }
       .Side-bar {
-          position: fixed;
-          top:35rem;
-          z-index: 2;
-          width:100%;
+          display: none;
       }
-
-      .SideBar-content-main{
-        display: flex;
-        flex-direction: row;
-         column-gap: 10rem;
-         justify-content: center;
-         align-items: center;
-        padding: 1rem 0rem 0rem 0.7rem;
-    }
-    .Side-Bar-content1{
-        padding: 0.5rem 0rem 0rem 0rem;
-    }
-
-    .Side-Bar-content1 button{
-        background-color: #E6f86d;
-        border-radius: 20%;
-        border: none;
-        padding:0rem;
-    }
-    .Side-Bar-content1 button i {
-        font-size: 200%;
-    }
-    .Side-Bar-content1 p{
-        @include paraText(0.8rem, #E6f86d);
-        font-weight: 300;
-        line-height: 1.5rem;
-   }
-   
-  .Side-Bar-content2{
-    padding: 0rem 0rem 0rem 0rem;
   }
-
-  .Side-Bar-content2 button{
-    background-color: #E6f86d;
-    border: none;
-    border-radius: 25%;
-    padding: 0.5rem;
-}
-  .Side-Bar-content2 p {
-    font-size: 0.8rem;
-    color:#E6f86d;
-    font-family: 'Poppins';
-    line-height: 1.2;
-    font-weight: 300;
-    padding-bottom: 0rem;
-  
-}
-
-  }
-
-
-  
   
   
   
