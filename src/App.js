@@ -32,7 +32,7 @@ function App() {
            <Route exact path = "/OnGoingTaks" component = {OnGoingTasks}/>
            {/* <CompletedTasks/>   */}
            <Route exact path = "/CompletedTasks" component = {CompletedTasks}/>
-            <Footer/> 
+            {/* <Footer/>  */}
       </div>
    </Router>
   

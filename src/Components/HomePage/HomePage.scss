@@ -8,46 +8,46 @@
 
 .Second-Health-slot-maindiv{
     position: absolute;
-    top:0rem;
-    left:1rem;
-    background-color:#fff;
-    width:50%;
+    top:0.5rem;
+    left:2rem;
     border-radius: 1rem;
 }
 
-.Subont-main-content{
-    text-align: left;
-    padding: 0rem 0rem 0rem 1.5rem;
+.Second-Health-card {
+    background-color: #fff;
+    width:100%;
+    padding: 0rem 3rem 1rem 0rem;
+    border-radius: 1rem;
 }
-
-.subont1 h3{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 1rem;
-    color: #605e5e;
-    padding: 0.5rem 0rem 0rem 0rem;
+.Subont-main-content {
+    padding: 1rem 0rem 0rem 2rem;
 }
-
+.subont1 h3 {
+      font-family: 'Poppins';
+      font-size: 1.2rem;
+      color: #605e5e;
+      font-weight: 550;
+}
 .subont1 p{
-    font-family: 'Poppins';
     font-size: 0.8rem;
+    font-family: 'Poppins';
+    line-height: 1.5;
+    padding: 0.5rem 0rem 0rem 0rem;
+    font-weight: 300;
     color: #605e5e;
     width:60%;
-    padding: 0.3rem 0rem 0.8rem 0rem;
 }
-
-.subont-img{
-   position: absolute;
-   top:1rem;
-   right:0rem;
+.subont-img {
+    position: absolute;
+    top:0.5rem;
+    right:1rem;
 }
 
 .subont-img img {
-    width:70%;
+    width:85%;
 }
-
 .yt-button {
-    padding: 0rem 0rem 2rem 0rem;
+    padding:0.7rem 0rem 0.5rem 0rem;
 }
 
 .yt-button button {
@@ -55,110 +55,61 @@
     background-color: #E6F86D;
     border-radius: 5%;
     font-size: 0.9rem;
-    padding: 0.5rem 3rem 0.5rem 2.5rem;
+    padding: 0.8rem 3.5rem 0.8rem 3rem;
     font-family: 'Poppins';
     font-weight: 600;
 }
-.Second-health-card-maindiv{
-    position:absolute ;
-    left:1rem;
-    top:10rem;
-    height:auto;
-    border-radius: 1rem;
-    background-color: #fff;
-    width:50%;
-    padding: 0rem 0rem 1.5rem 0rem;
-}
 
-.Second-health-card-maindiv h3 {
-    font-family: 'Poppins';
-    font-weight: 600;
-    color: #605e5e;
-    padding: 1rem 0rem 0.5rem 1rem;
-}
-
-.Second-health-card-maindiv .myt2 {
-    width:100%;
-    text-align: center;
-    border-collapse: collapse;
-    line-height: 2.0;
-}
-
-.myt2 th {
-    font-size: 0.8rem;
-    background-color: #E6F86D;
-    padding: 0rem 0.2rem 0rem 0.8rem;
-    font-family: 'Poppins';
-}
-
-.myt2 td {
-    padding: 0.8rem 0rem 0rem 0.5rem;
-    line-height: 4.0;
-    font-family: 'Poppins';
-    font-size: 0.7rem;
-}
-
-.third-health-Card {
-    background-color: #fff;
-    width:28%;
+.Second-health-card-maindiv {
     position: absolute;
-    height:auto;
+    top:13.5rem;
+    left:2rem;
+}
+.Table-card {
+    background-color: #fff;
+    box-sizing: border-box;
     border-radius: 1rem;
-    right: 13rem;
+    padding-bottom: 1.5rem;
+}
+.Table-card h3 {
+    font-family: 'Poppins';
+    padding: 0.5rem 0rem 0.4rem 0.5rem;
+    color: #5a5a5a;
+    font-size: 1rem;
+}
+.health-care-table {
+    border-collapse: collapse;
+}
+
+.health-care-table thead tr th{
+    background-color: #E6F86D;
+    font-size: 0.8rem;
+    color: #5a5a5a;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+}
+.health-care-table tbody{
+    text-align: left;
+}
+.health-care-table tbody tr td {
+    font-family: 'Poppins';
+    font-size: 0.8rem;
+    color: #5a5a5a;
+    padding: 1.2rem 1rem 1.5rem 0.5rem;
+}
+.health-care-table tbody tr td img {
+    width:70%;
+}
+.third-card-maindiv{
+    position: absolute;
+    left:65%;
+    top:3rem;
+}
+.third-health-Card {
+    width:100%;
+    background-color: #fff;
     box-sizing: border-box;
 }
 
-.header-bar-main .header-bar{
-     display: flex;
-     justify-content: space-between;
-     align-items:flex-end;
-     padding: 0.5rem 1rem 0rem 0rem;
-}
-
- .header-bar h3{
-     font-size: 1rem;
-     font-family: 'Poppins';
-     padding: 0.8rem 0rem 0rem 1rem;
- }
-
- .header-bar i {
-     font-size: 150%;
-     padding: 0.5rem 0rem 0rem 0rem;
- }
-
- .third-health-content-main {
-     padding:1.2rem 0rem 1rem 1rem
- }
-
- .third-cont-1 {
-     padding: 1.5rem 0rem 1rem 0rem;
- }
-
- .third-cont-1 .slot1-button {
-     background-color:#E6F86D;
-     border-radius: 50%;
-     border: none;
-     opacity: 0.7;
-     color: #fff;
- }
-
- .third-cont-1 span {
-       font-size: 0.8rem;
-       font-family: 'Poppins';
-       padding: 0rem 0rem 0rem 1rem;
-       color: #464a53;
-       font-weight: 500;
- }
-
- .third-cont-1 .slot2-button {
-     background-color: #f5f5f5;
-     border: none;
-     font-size: 0.7rem;
-     float: right;
-     font-family: 'Poppins';
-     border-radius: 25%;
-     padding: 0.5rem 0.5rem 0.5rem 1rem;
- }
 
 @media screen and (max-width:360px){
     .Second-Health-slot-maindiv {

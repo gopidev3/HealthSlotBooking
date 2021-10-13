@@ -10,7 +10,7 @@ body{
 
 .Side-bar {
     @include sideBar(#605e5e, 1rem,10%);
-    width:11%;
+    width:10%;
     height:100vh;
     border-radius: 1%;
     filter: drop-shadow(5px 5px 5px #E6f86d);

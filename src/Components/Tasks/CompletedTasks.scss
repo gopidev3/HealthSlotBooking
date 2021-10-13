@@ -73,8 +73,10 @@
     .Seventh-heallth-Card{
         margin-bottom: 0.5rem;
         background-color: #fff;
-        padding: 0.5rem 0rem 0rem 0.5rem;
+        padding: 0.5rem 0rem 0.8rem 0.5rem;
         border-radius: 0.5rem;
+        width:100%;
+        border-left:0.5rem solid #E6f86d;
     }
     
     .Seventh-heallth-Card span {
@@ -86,12 +88,13 @@
 
     .Seventh-heallth-Card img {
         float: right;
-        width: 9%;
+        width: 8%;
+        padding: 0rem 0.5rem 0rem 0rem;
     }
 
     .Seventh-heallth-Card i {
-        color:#008683;
         float: right;
+        width:9%;
     }
 
     .Seventh-heallth-Card p {
@@ -200,6 +203,7 @@
     .Seventh-heallth-Card i {
         color:#008683;
         float: right;
+
     }
 
     .Seventh-heallth-Card p {
